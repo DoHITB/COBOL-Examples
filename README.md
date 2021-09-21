@@ -12,6 +12,7 @@ NOMBRE    APELLIDO1 25/11/1990
 0987654321
 ```
 
+
 ## exm2.cbl: complex display example (LIN, COL, BELL)
 
 ```
