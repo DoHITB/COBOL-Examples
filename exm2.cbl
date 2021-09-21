@@ -31,7 +31,6 @@
        PROCEDURE DIVISION.
        MAINLINE.       
             DISPLAY 'INICIO DEL PROGRAMA' LINE 1 COL 1 BELL.
-            DISPLAY ' '.
             DISPLAY 'TE LLAMAS: '         LINE 5 COL 3.
             DISPLAY 'TE APELLIDAS: '      LINE 7 COL 3.
             DISPLAY 'NACISTE EL: '        LINE 9 COL 3
