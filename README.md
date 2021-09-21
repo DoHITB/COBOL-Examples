@@ -31,3 +31,15 @@ INICIO DEL PROGRAMA
 FIN DEL PROGRAMA
 end of program, please press a key to exit
 ```
+
+
+## exm3.cbl: complex display example (substring)
+
+```
+#cobc -x exm3.cbl -o EXM3
+#./EXM3
+INICIO DEL PROGRAMA
+TE LLAMAS: NOMBRE
+TU APELLIDO ES: APELLIDO1
+LAS 3 ULTIMAS LETRAS DEL APELLIDO: DO1
+```
