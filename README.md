@@ -123,3 +123,16 @@ VALORES FINALES-2: 0 01 15 000000026 000000015 000000000
 ```
 
 
+## exm10.cbl: use of set verb to increase / decrease
+
+```
+#cobc -x exm10.cbl -o EXM10
+#./EXM10
+INICIO DEL PROGRAMA
+BASE: 1
+BASE: 3
+BASE: 2
+```
+
+
+
