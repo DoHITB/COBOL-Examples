@@ -154,3 +154,17 @@ DIGITOS: 1000
 CONTADOR: 3
 EL/LOS ULTIMO/S 3 DIGITO/S DE BASE: 0164
 ```
+
+
+## exm12.cbl: intrinsic functions usage
+
+```
+#cobc -x exm12.cbl -o EXM12
+#./EXM12
+INICIO DEL PROGRAMA
+LONGITUD DE BASE: 9
+TEXTO:            Hola desde cobol
+N-TEXTO:          12
+ACTUAL:           2022102916513556+0200
+D:                01040000
+```
