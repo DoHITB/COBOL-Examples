@@ -12,7 +12,7 @@
       *                                                               *
       *****************************************************************
        ID DIVISION.
-       PROGRAM-ID. EXM10.
+       PROGRAM-ID. EXM11.
 
        DATA DIVISION.
        WORKING-STORAGE SECTION.
