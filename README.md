@@ -168,3 +168,18 @@ N-TEXTO:          12
 ACTUAL:           2022102916513556+0200
 D:                01040000
 ```
+
+
+## exm13.cbl: string simple usage
+
+```
+#cobc -x exm13.cbl -o EXM13
+#./EXM13
+INICIO DEL PROGRAMA
+  EJEMPLO 1:
+HOLA                DESDE               COBOL
+  EJEMPLO 2:
+HOLA DESDE COBOL
+  EJEMPLO 3:
+HOLA, DESDE COBOL
+```
