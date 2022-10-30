@@ -204,3 +204,16 @@ VALOR DE PARTES:
   (10)
 VALOR FINAL: a EL le DE lo MISMO
 ```
+
+
+## exm15.cbl: inspect simple usage
+```
+#cobc -x exm15.cbl -o EXM15
+#./EXM15
+INICIO DEL PROGRAMA
+TEXTO: HOLA DESDE COBOL
+TEXTO: hola desde cobol
+TEXTO: adio desde cobol
+TEXTO: adiz desde czbzl
+TEXTO: adiy desde czbzl
+```
