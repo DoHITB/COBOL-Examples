@@ -183,3 +183,24 @@ HOLA DESDE COBOL
   EJEMPLO 3:
 HOLA, DESDE COBOL
 ```
+
+
+## exm14.cbl: unstring simple usage
+```
+#cobc -x exm14.cbl -o EXM14
+#./EXM14
+INICIO DEL PROGRAMA
+VALOR INICIAL: A EL LE DE LO MISMO
+VALOR DE PARTES:
+  (1) A
+  (2) EL
+  (3) LE
+  (4) DE
+  (5) LO
+  (6) MISMO
+  (7)
+  (8)
+  (9)
+  (10)
+VALOR FINAL: a EL le DE lo MISMO
+```
