@@ -217,3 +217,14 @@ TEXTO: adio desde cobol
 TEXTO: adiz desde czbzl
 TEXTO: adiy desde czbzl
 ```
+
+
+## exm16.cbl: inspect tallying simple usage
+```
+#cobc -x exm16.cbl -o EXM16
+#./EXM16
+INICIO DEL PROGRAMA
+HAY 000000020 CARACTERES
+HAY 9 ESPACIOS EN CONT-Z (ZZZ,ZZZ,ZZ9): >         20<
+DISPLAY SIN ESPACIOS A LA IZQUIERDADE CONT-Z: >20         <
+```
