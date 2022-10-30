@@ -17,7 +17,16 @@
        DATA DIVISION.
        WORKING-STORAGE SECTION.
         01 VARIABLES.
-           02 PARTES OCCURS 10     PIC X(20).
+           02 PARTES-1             PIC X(20).
+           02 PARTES-2             PIC X(20).
+           02 PARTES-3             PIC X(20).
+           02 PARTES-4             PIC X(20).
+           02 PARTES-5             PIC X(20).
+           02 PARTES-6             PIC X(20).
+           02 PARTES-7             PIC X(20).
+           02 PARTES-8             PIC X(20).
+           02 PARTES-9             PIC X(20).
+           02 PARTES-10            PIC X(20).
         77 TEXTO                   PIC X(20).
 
        PROCEDURE DIVISION.
@@ -30,65 +39,65 @@
             DISPLAY 'VALOR INICIAL: ' TEXTO.
 
             UNSTRING TEXTO DELIMITED BY SPACE
-                INTO PARTES(1)
-                     PARTES(2)
-                     PARTES(3)
-                     PARTES(4)
-                     PARTES(5)
-                     PARTES(6)
-                     PARTES(7)
-                     PARTES(8)
-                     PARTES(9)
-                     PARTES(10).
+                INTO PARTES-1
+                     PARTES-2
+                     PARTES-3
+                     PARTES-4
+                     PARTES-5
+                     PARTES-6
+                     PARTES-7
+                     PARTES-8
+                     PARTES-9
+                     PARTES-10.
 
-            DISPLAY 'VALOR DE PARTES: '
-            DISPLAY '  (1) '  PARTES(1)
-            DISPLAY '  (2) '  PARTES(2)
-            DISPLAY '  (3) '  PARTES(3)
-            DISPLAY '  (4) '  PARTES(4)
-            DISPLAY '  (5) '  PARTES(5)
-            DISPLAY '  (6) '  PARTES(6)
-            DISPLAY '  (7) '  PARTES(7)
-            DISPLAY '  (8) '  PARTES(8)
-            DISPLAY '  (9) '  PARTES(9)
-            DISPLAY '  (10) ' PARTES(10).
+            DISPLAY 'VALOR DE PARTES: '.
+            DISPLAY '  (1) '  PARTES-1.
+            DISPLAY '  (2) '  PARTES-2.
+            DISPLAY '  (3) '  PARTES-3.
+            DISPLAY '  (4) '  PARTES-4.
+            DISPLAY '  (5) '  PARTES-5.
+            DISPLAY '  (6) '  PARTES-6.
+            DISPLAY '  (7) '  PARTES-7.
+            DISPLAY '  (8) '  PARTES-8.
+            DISPLAY '  (9) '  PARTES-9.
+            DISPLAY '  (10) ' PARTES-10.
 
-            MOVE FUNCTION LOWER-CASE(PARTES(1))
-              TO PARTES(1).
+            MOVE FUNCTION LOWER-CASE(PARTES-1)
+              TO PARTES-1.
 
-            MOVE FUNCTION LOWER-CASE(PARTES(3))
-              TO PARTES(3).
+            MOVE FUNCTION LOWER-CASE(PARTES-3)
+              TO PARTES-3.
 
-            MOVE FUNCTION LOWER-CASE(PARTES(5))
-              TO PARTES(5).
+            MOVE FUNCTION LOWER-CASE(PARTES-5)
+              TO PARTES-5. 
 
-            MOVE FUNCTION LOWER-CASE(PARTES(7))
-              TO PARTES(7).
+            MOVE FUNCTION LOWER-CASE(PARTES-7)
+              TO PARTES-7.
 
-            MOVE FUNCTION LOWER-CASE(PARTES(9))
-              TO PARTES(9).
+            MOVE FUNCTION LOWER-CASE(PARTES-9)
+              TO PARTES-9.
 
             MOVE ALL SPACES                 TO TEXTO.
 
-            STRING PARTES(1)  DELIMITED BY SPACE
-                   ' '        DELIMITED BY SIZE
-                   PARTES(2)  DELIMITED BY SPACE
-                   ' '        DELIMITED BY SIZE
-                   PARTES(3)  DELIMITED BY SPACE
-                   ' '        DELIMITED BY SIZE
-                   PARTES(4)  DELIMITED BY SPACE
-                   ' '        DELIMITED BY SIZE
-                   PARTES(5)  DELIMITED BY SPACE
-                   ' '        DELIMITED BY SIZE
-                   PARTES(6)  DELIMITED BY SPACE
-                   ' '        DELIMITED BY SIZE
-                   PARTES(7)  DELIMITED BY SPACE
-                   ' '        DELIMITED BY SIZE
-                   PARTES(8)  DELIMITED BY SPACE
-                   ' '        DELIMITED BY SIZE
-                   PARTES(9)  DELIMITED BY SPACE
-                   ' '        DELIMITED BY SIZE
-                   PARTES(10) DELIMITED BY SPACE
+            STRING PARTES-1  DELIMITED BY SPACE
+                   ' '       DELIMITED BY SIZE
+                   PARTES-2  DELIMITED BY SPACE
+                   ' '       DELIMITED BY SIZE
+                   PARTES-3  DELIMITED BY SPACE
+                   ' '       DELIMITED BY SIZE
+                   PARTES-4  DELIMITED BY SPACE
+                   ' '       DELIMITED BY SIZE
+                   PARTES-5  DELIMITED BY SPACE
+                   ' '       DELIMITED BY SIZE
+                   PARTES-6  DELIMITED BY SPACE
+                   ' '       DELIMITED BY SIZE
+                   PARTES-7  DELIMITED BY SPACE
+                   ' '       DELIMITED BY SIZE
+                   PARTES-8  DELIMITED BY SPACE
+                   ' '       DELIMITED BY SIZE
+                   PARTES-9  DELIMITED BY SPACE
+                   ' '       DELIMITED BY SIZE
+                   PARTES-10 DELIMITED BY SPACE
             INTO TEXTO.
 
             DISPLAY 'VALOR FINAL: ' TEXTO.
