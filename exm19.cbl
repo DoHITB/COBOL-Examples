@@ -41,7 +41,8 @@
               DISPLAY 'CINCO, IMPAR, UNA CIFRA'
             END-IF.
 
-            IF INTERRUPTOR-1 > 20 AND INTERRUPTOR-1 < 50
+            IF INTERRUPTOR-1 > 20 AND 
+               INTERRUPTOR-1 < 50
               DISPLAY 'ENTRE 20 Y 50'
             ELSE
               DISPLAY 'FUERA DE RANGO'
