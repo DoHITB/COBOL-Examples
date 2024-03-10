@@ -1,6 +1,8 @@
 # COBOL-Examples
 Some COBOL examples for academic porpouse.
 
+Want to learn more? [Buy my book](https://www.amazon.es/dp/B0CWDW9HB6) 😁
+
 ## exm1.cbl: easy display example
 
 ```
